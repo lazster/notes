@@ -1,5 +1,5 @@
 # notes
-----This is a quick guide on how to set up sessions manager on your EC2 instance and enable SSH connections through SSM.--
+#----This is a quick guide on how to set up sessions manager on your EC2 instance and enable SSH connections through SSM.--
 
 
 Setting up sessions manager on EC2 instance
@@ -20,3 +20,8 @@ Go to EC2 instances, select the instance you would like to enable SSM on.
 Click on Actions, select Security, and then Modify IAM roleModifying IAM role
 Next select IAM role we have created in the previous stepSelecting IAM role
 3. You can now connect to your instance through Session Manager.Connect to your instance!
+
+#----start session manager--------------------------
+1. navigate to instance
+2. click connect button then make sure to use **session manager** tab (not EC2 instance connect)
+3. 

@@ -25,3 +25,8 @@ Next select IAM role we have created in the previous stepSelecting IAM role
 1. navigate to instance
 2. click connect button then make sure to use **session manager** tab (not EC2 instance connect)
 3. 
+
+-------------
+to sort a sandbox db that wasnt accessable over web i did this 
+edited subnet to flip Auto-assign public IPv4 address= Yes
+edited route table to add this route: "destination= 0.0.0.0/0	target= <insert your internet gateway name here> eg igw-0143349a4be19dde2"
